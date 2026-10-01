@@ -1,0 +1,13 @@
+__pycache__/
+*.py[cod]
+.venv/
+bf_data3/
+haadf_data3/
+bf_test_data3/
+haadf_test_data3/
+*.zip
+*.pth
+*.pt
+*_result/
+*_app_result/
+app_img/
