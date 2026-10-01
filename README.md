@@ -20,9 +20,18 @@ Use a matching PyTorch/torchvision installation for your CUDA version. Training 
 
 ## Data
 
-The datasets are hosted on Google Drive and are excluded from GitHub. The verified download link will be added after upload completes.
+Download the datasets from [Google Drive](https://drive.google.com/drive/folders/1uBW3RZlmPFD82II6anT4zMC7TtD9_NQD). The folder is publicly accessible with read-only permissions. Dataset files are excluded from GitHub.
 
-Extract the four ZIP files into the repository root so that the layout is:
+Download all six ZIP files. Each training dataset is split into two independently extractable archives to fit the upload size limit. Extract both parts into the same repository root; they merge into one dataset folder.
+
+| Dataset | Archives | Samples |
+| --- | --- | ---: |
+| BF training | `bf_data3_part1.zip`, `bf_data3_part2.zip` | 1000 |
+| HAADF training | `haadf_data3_part1.zip`, `haadf_data3_part2.zip` | 1000 |
+| BF test | `bf_test_data3.zip` | 100 |
+| HAADF test | `haadf_test_data3.zip` | 100 |
+
+The Drive folder also contains `download_manifest.json` with archive sizes and SHA-256 checksums. After extraction, the layout is:
 
 ```text
 SFFN/
