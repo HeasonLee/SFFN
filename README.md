@@ -1,8 +1,8 @@
 # SFFN
 
-Code and data for the manuscript **Spatial-Frequency Learning for Scanning Transmission Electron Microscopy Image Enhancement**.
+Code and data for the paper **[Spatial-Frequency Learning for Scanning Transmission Electron Microscopy Image Enhancement](https://doi.org/10.1109/TPAMI.2026.3740932)**, published in *IEEE Transactions on Pattern Analysis and Machine Intelligence* (PAMI), 2026.
 
-Authors: Hesong Li, Ying Fu, Ziqi Wu, Tao Zhang, and Ruiwen Shao.
+Authors: Hesong Li, Ying Fu, Ziqi Wu, Ruiwen Shao, and Tao Zhang.
 
 <p align="center">
   <img width="900" src="git.png" alt="Spatial-frequency fusion network architecture">
@@ -170,14 +170,20 @@ The original defaults are `bf_test_data3` with 100 samples and `haadf_data3` wit
 
 ## Citation
 
-The manuscript has not been assigned final journal metadata in this release. Use the following manuscript citation, and update it when a publication record is available:
+If you use SFFN or AtoMix in your research, please cite our PAMI paper:
+
+H. Li, Y. Fu, Z. Wu, R. Shao, and T. Zhang, "Spatial-Frequency Learning for Scanning Transmission Electron Microscopy Image Enhancement," *IEEE Transactions on Pattern Analysis and Machine Intelligence*, early access, pp. 1–17, 2026, doi: [10.1109/TPAMI.2026.3740932](https://doi.org/10.1109/TPAMI.2026.3740932).
 
 ```bibtex
-@misc{Li2026SFFN,
+@article{Li2026SFFN,
   title = {Spatial-Frequency Learning for Scanning Transmission Electron Microscopy Image Enhancement},
-  author = {Li, Hesong and Fu, Ying and Wu, Ziqi and Zhang, Tao and Shao, Ruiwen},
+  author = {Li, Hesong and Fu, Ying and Wu, Ziqi and Shao, Ruiwen and Zhang, Tao},
+  journal = {IEEE Transactions on Pattern Analysis and Machine Intelligence},
   year = {2026},
-  note = {Manuscript}
+  pages = {1--17},
+  note = {Early Access},
+  doi = {10.1109/TPAMI.2026.3740932},
+  url = {https://doi.org/10.1109/TPAMI.2026.3740932}
 }
 ```
 
