@@ -11,3 +11,6 @@ haadf_test_data3/
 *_result/
 *_app_result/
 app_img/
+
+# Generated calibration outputs (bundled samples remain tracked)
+/calibration/outputs/

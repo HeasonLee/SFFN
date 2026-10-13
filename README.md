@@ -164,6 +164,19 @@ Precomputed visual outputs are available in [visual_results.zip](https://drive.g
    python metrics.py --gt haadf_test_data3/enhance_gt --results convFuse_h3e_result
    ```
 
+## Noise Calibration
+
+The [calibration code, sample images, and historical estimates](calibration/README.md) are now included. The samples contain 20 real HAADF images and 20 real BF images from the SFIN calibration workflow used as the basis for AtoMix synthesis.
+
+**The parameter ranges used for data simulation were manually fine-tuned based on the directly calibrated parameters.** The final synthesis settings in `haadf.py` and `bf.py` therefore differ from the raw calibration estimates. Running calibration does not overwrite the simulation settings.
+
+```bash
+python calibration/calibrate.py --mode haadf --output calibration/outputs/haadf
+python calibration/calibrate.py --mode bf --output calibration/outputs/bf
+```
+
+See the [calibration guide](calibration/README.md) for custom inputs, output definitions, and the relationship between direct calibration and the manually adjusted synthesis parameters.
+
 ## Dataset Synthesis
 
 `generate_bf.py` and `generate_haadf.py` synthesize images using the atomic structures and calibration parameters in `bf.py` and `haadf.py`. Each atomic column is rendered with a two-dimensional Gaussian profile. The pipeline mixes atomic patterns, randomly relocates atoms, and adds background, scan, and pointwise noise.

@@ -7,3 +7,4 @@ pytorch-msssim
 kornia
 ptflops
 noise
+matplotlib
