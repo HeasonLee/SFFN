@@ -1,6 +1,6 @@
 # SFFN
 
-📄 **[Paper (IEEE TPAMI 2026)](https://doi.org/10.1109/TPAMI.2026.3740932)**
+📄 **[Paper (IEEE TPAMI 2026)](https://doi.org/10.1109/TPAMI.2026.3740932)** | **[Download PDF (arXiv)](https://arxiv.org/pdf/2610.36487)
 
 Code and data for the paper **[Spatial-Frequency Learning for Scanning Transmission Electron Microscopy Image Enhancement](https://doi.org/10.1109/TPAMI.2026.3740932)**, published in *IEEE Transactions on Pattern Analysis and Machine Intelligence* (PAMI), 2026.
 
